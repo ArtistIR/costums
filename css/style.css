@@ -771,7 +771,6 @@ a{
 }
 .fs_item_inner{
     display: block;
-    width: 100%;
     max-width: 355px;
 
     padding-bottom: 40px;
