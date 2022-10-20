@@ -291,6 +291,8 @@ a{
     font-weight: 400;
     font-size: 54px;
     color: #DBDBDB;
+
+    margin: 16px 0;
 }
 .intro_btn{
     margin: 32px auto;
