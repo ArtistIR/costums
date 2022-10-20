@@ -13,16 +13,9 @@
     <link rel="stylesheet" href="css/owl.min.css">
     <link rel="stylesheet" href="css/owl.theme.css">
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" defer></script>
-    <script src="js/owl.js" defer></script>
-    <script src="js/slider.js" defer></script>
-
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-    <script src="https://kit.fontawesome.com/18fde6f05c.js" defer crossorigin="anonymous"></script>
 
     <title>Costums</title>
 </head>
@@ -129,7 +122,7 @@
         </div>
     </section>
 
-    <!--SERVICES-->
+    <!--Сервисы-->
     <section class="services">
             <h2 class="services_title">Наши <mark>услуги</mark></h2>
             <div class="services_inner">
@@ -239,7 +232,7 @@
     </section>
 
 
-    <!--SUGEST-->
+    <!--Предложения-->
     <section class="sugest">
         <h2 class="services_title"><mark>Лучшие</mark> предложения</h2>
 
@@ -290,7 +283,7 @@
     </section>
 
 
-    <!--RATING-->
+    <!--Рейтинг-->
     <section class="rating">
         <div class="container">
             <h2 class="services_title">Почему выбирают <mark>нас?</mark></h2>
@@ -344,7 +337,26 @@
         </div>
     </section>
 
-    
+    <!--Карточка товара-->
+    <section class="card">
+        <div class="container">
+            <div class="card_slider">
+                <ul class="card_previous">
+                    <li><img onclick="swapImg(this)" class="card_previous_img" src="assets/img/catalog/costums/black.jpg" alt="" ></li>
+                    <li><img onclick="swapImg(this)" class="card_previous_img" src="assets/img/catalog/costums/blue.jpg" alt="" ></li>
+                    <li><img onclick="swapImg(this)" class="card_previous_img" src="assets/img/catalog/costums/blue_2.jpg" alt="" ></li>
+                </ul>
+                <div class="card_photo">
+                    <img class="card_photo_img" src="" alt="" id="card_img">
+                </div>
+            </div>
+            <div class="card_property"></div>
+            <div class="card_description"></div>
+            <form action="" class="card_form"></form>
+        </div>
+        <script src="js/cardGallery.js" defer></script>
+    </section>
+
 
 
     </main>
@@ -421,5 +433,11 @@
 
         </div><!--CONTAINER-->
     </footer>
+
+    <!--SLIDER-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" defer></script>
+    <script src="js/owl.js" defer></script>
+    <script src="js/slider.js" defer></script>
+
 </body>
 </html>

@@ -860,3 +860,30 @@ a{
 .fsi_title.und_line{
     text-decoration: underline;
 }
+
+/*CARD*/
+.card_slider{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 50px;
+}
+.card_previous li{
+    display: block;
+    width: 148px;
+    height: 160px;
+    overflow: hidden;
+    margin: 0 24px 12px 0;
+}
+.card_previous_img{
+    width: 100%;
+}
+.card_photo{
+    display: block;
+    width: 570px;
+    height: 712px;
+    overflow: hidden;
+    background-color: #ACACAC;
+}
+.card_photo_img{
+    height: 100%;
+}
