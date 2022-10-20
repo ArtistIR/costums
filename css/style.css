@@ -55,8 +55,8 @@ font-family: 'Inter', sans-serif;
 body{
     margin: 0;
     font-size: 14px;
-    line-height: 1.6;
     color: #181A15;
+    transition: all .15s linear;
 }
 .container{
     width: 100%;
@@ -379,25 +379,38 @@ a{
     align-items: center;
 }
 .services_item{
+    overflow: hidden;
     position: relative;
     display: block;
     width: 360px;
     height: 540px;
     background-color: #ACACAC;
 }
-.services_item:hover .service_btn_arr{
-    background-color: #5383AC;
-    stroke: #fff;
-}
 .service_ell{
     position: absolute;
     z-index: 1;
-    top: 0;
-    left: 0;
-    width: 85%;
+    top: -220px;
+    left: -195px;
+    width: 130%;
+
+    transition: all .3s linear;
+}
+.services_item:hover .service_ell,
+.services_item:hover .service_ell_center{
+    width: 300%;
+}
+.service_ell_center{
+    position: absolute;
+    z-index: 1;
+    top: -220px;
+    left: -180px;
+    width: 120%;
+
+    transition: all .3s linear;
 }
 .service_btn_arr{
     position: absolute;
+    z-index: 2;
     display: block;
     bottom: 20px;
     right: 20px;
@@ -405,6 +418,15 @@ a{
     border-radius: 100%;
     object-fit: cover;
     transform: rotate(45deg);
+}
+.service_btn_arr:hover{
+    background-color: #fff;
+    stroke: #5383AC !important;
+    border: none !important;
+}
+.services_item:hover .service_btn_arr{
+    stroke: #fff;
+    border: 2px #fff solid;
 }
 .service_item_title{
     position: absolute;
