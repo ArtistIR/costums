@@ -936,7 +936,7 @@ a{
     list-style-type: none;
     margin-bottom: 16px;
 }
-.size li{
+.size_cell{
     margin-right: 8px;
     display: block;
     width: 60px;
@@ -948,13 +948,90 @@ a{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 60px;
+    line-height: 58px;
     text-align: center;
     color: #181A15;
+}
+.blue_cell{
+    display: block;
+    border: 2px #5383AC solid;
+    color: #5383AC;
+    font-weight: 700;
+    line-height: 56px;
 }
 .card_btn{
     margin:0;
     margin-top: 16px;
     width: 340px;
     height: 72px;
+}
+
+.card_description{
+    display: block;
+    width: 100%;
+    max-width: 740px;
+}
+.card_description_title{
+    position: relative;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #5383AC;
+
+    padding-bottom: 16px;
+    border-bottom: 1px #DBDBDB solid;
+}
+.card_description_title::after{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 215px;
+    background-color: #5383AC;
+
+    position: absolute;
+    z-index: 1;
+    bottom: -1px;
+}
+.card_description_info{
+    padding:32px 0 8px 0;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #333333;
+}
+.arend_title{
+    padding: 32px 0 24px 0;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #5383AC;
+}
+.arend_item{
+    display: flex;
+    justify-content: flex-start;
+    padding: 12px 0;
+}
+.arend_item_text{
+    display: block;
+    width: 665px;
+    padding-left: 8px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+
+    color: #181A15;
 }
