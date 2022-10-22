@@ -1174,8 +1174,8 @@ a{
 /*404*/
 .error_page{
     height: 100vh;
-
-    background-color: #fafafa;
+    background: url('../assets/img/header_bg.jpg') center no-repeat;
+    background-size: cover;
 }
 .err_inner{
     display: block;
@@ -1189,11 +1189,9 @@ a{
     font-weight: 600;
 
     font-size: 160px;
-    padding: 100px 0 24px 0;
+    padding: 250px 0 16px 0;
     text-align: center;
     color: #5383AC;
-
-
 }
 .err_sub_title{
     font-family: 'Playfair Display', sans-serif;
@@ -1202,6 +1200,7 @@ a{
 
     font-size: 35px;
     text-align: center;
+    color: #fff;
 }
 .err_btn{
     line-height: 85px;
