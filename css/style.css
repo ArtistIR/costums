@@ -440,14 +440,11 @@ a{
 
     font-family: 'Playfair Display', serif;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 15px;
     text-transform: uppercase;
     color: #FFFFFF;
 
     transition: all .15s linear;
-}
-.burger_btn_form{
-
 }
 
 .nav_item{
@@ -531,6 +528,7 @@ a{
 }
 .intro_inner_title{
     display: block;
+    padding: 0 15px;
 }
 .intro_inner_title_text{
     font-family: 'Playfair Display', serif;
@@ -539,6 +537,39 @@ a{
     color: #DBDBDB;
 
     margin: 16px 0;
+}
+@media(max-width:1300px){
+    .intro_inner_title_text{
+        font-size: 54px;
+        margin: 16px 0;
+    }
+}
+@media(max-width:1200px){
+    .intro_inner_title_text{
+        font-size: 50px;
+        margin: 13px 0;
+    }
+}
+@media(max-width:992px){
+    .intro_inner_title_text{
+        font-size: 46px;
+        margin: 10px 0;
+    }
+}
+@media(max-width:767px){
+    .intro_inner_title_text{
+        font-size: 42px;
+    }
+}
+@media(max-width:480px){
+    .intro_inner_title_text{
+        font-size: 38px;
+    }
+}
+@media(max-width:320px){
+    .intro_inner_title_text{
+        font-size: 34px;
+    }
 }
 .intro_btn{
     margin: 32px auto;
@@ -565,6 +596,64 @@ a{
     color: #5383AC;
     background: #fff;
     box-shadow: inset 0px 4px 4px #d4d4d4;
+}
+@media(max-width:1300px){
+    .intro_btn{
+        margin: 32px auto;
+        width: 372px;
+        height: 86px;
+        border-radius: 56px;
+
+        font-size: 18px;
+    }
+}
+@media(max-width:1200px){
+    .intro_btn{
+        margin: 30px auto;
+        width: 350px;
+        height: 73px;
+        border-radius: 56px;
+
+        font-size: 17px;
+    }
+}
+@media(max-width:992px){
+    .intro_btn{
+        margin: 28px auto;
+        width: 350px;
+        height: 73px;
+        border-radius: 56px;
+
+        font-size: 16px;
+    }
+}
+@media(max-width:767px){
+    .intro_btn{
+        margin: 25px auto;
+        width: 330px;
+        height: 60px;
+        border-radius: 56px;
+
+        font-size: 15px;
+    }
+}
+@media(max-width:480px){
+    .intro_btn{
+        width: 300px;
+        height: 60px;
+        border-radius: 56px;
+
+        font-size: 14px;
+    }
+}
+@media(max-width:320px){
+    .intro_btn{
+        width: 280px;
+        height: 50px;
+        border-radius: 56px;
+
+        font-size: 13px;
+    }
 }
 .intro_navbar{
     display: block;
