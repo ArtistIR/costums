@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
     <link rel="stylesheet" href="css/style.css">
 
@@ -22,7 +22,6 @@
 
 
 <body>
-
     <header class="header">
         <div class="header_logo">
             <img src="assets/img/elements/Subtract.png" alt="">
@@ -36,24 +35,25 @@
                 <div class="header_sup_inner">
                     <div class="header_sup_inner_adress">
                         <img class="adres_icon" src="assets/img/elements/point.png" alt="">
-                        <span>г. Москва, м. Полянка, ул. Большая Полянка д. 43, стр. 2 <br>
+                        <span>г. Москва, м. Полянка, ул. Большая Полянка д. 43, стр. 2
                         Пн-Вс с 11:00-21:00 без перерывов и выходных</span>
                     </div>
 
                     <social class="header_sup_inner_social">
-                        <a href="#" class="social_item" target="_blank">
-                            <img src="assets/img/social/twitter.png" alt="">
-                        </a>
-                        <a href="#" class="social_item" target="_blank">
-                            <img src="assets/img/social/facebook.png" alt="">
-                        </a>
-                        <a href="#" class="social_item" target="_blank">
-                            <img src="assets/img/social/vkontakte.png" alt="">
-                        </a>
-                        <a href="#" class="social_item" target="_blank">
-                            <img src="assets/img/social/whatsapp.png" alt="">
-                        </a>
-
+                        <div class="social_links">
+                            <a href="#" class="social_item" target="_blank">
+                                <img src="assets/img/social/twitter.png" alt="">
+                            </a>
+                            <a href="#" class="social_item" target="_blank">
+                                <img src="assets/img/social/facebook.png" alt="">
+                            </a>
+                            <a href="#" class="social_item" target="_blank">
+                                <img src="assets/img/social/vkontakte.png" alt="">
+                            </a>
+                            <a href="#" class="social_item" target="_blank">
+                                <img src="assets/img/social/whatsapp.png" alt="">
+                            </a>
+                        </div>
                         <div class="header_number">
                             <a class="header_number_call" href="tel:+74952228433"> <img src="assets/img/elements/tel.png" alt=""> +7 (495) 222-84-33</a> 
                             <button class="header_number_form">Заказать звонок</button>
@@ -64,6 +64,21 @@
             </div><!--CONTAINER-->
         </div> <!--HEADER_SUP-->
 
+        <div class="burger_inner">
+                <nav class="burger_nav">
+                    <ul class="burger_nav__list">
+                        <li class="burger_nav_item"><a href="#" class="nav_link">Главная <img class="nav_dekor" src="assets/img/elements/drop_arrow.png" alt=""></a></li>
+                        <li class="burger_nav_item"><a href="#" class="nav_link">О нас <img class="nav_dekor" src="assets/img/elements/drop_arrow.png" alt=""></a></li>
+                        <li class="burger_nav_item"><a href="#" class="nav_link">Каталог <img class="nav_dekor" src="assets/img/elements/drop_arrow.png" alt=""></a></li>
+                        <li class="burger_nav_item"><a href="#" class="nav_link">Галерея <img class="nav_dekor" src="assets/img/elements/drop_arrow.png" alt=""></a></li>
+                        <li class="burger_nav_item"><a href="#" class="nav_link">Условия <img class="nav_dekor" src="assets/img/elements/drop_arrow.png" alt=""></a></li>
+                        <li class="burger_nav_item"><a href="#" class="nav_link">Контакты <img class="nav_dekor" src="assets/img/elements/drop_arrow.png" alt=""></a></li>
+                    </ul>  
+                </nav>
+                <a href="#" class="nav_burger_btn">
+                    <span></span>
+                </a>
+        </div>
         <nav class="nav" title="">
             <div class="container">
                 <ul class="nav__list">
@@ -80,9 +95,7 @@
         </nav>
     </header>
 
-
     <main>
-
     <!--<div class="intro intro--main"> -->
     <section class="intro intro--main">
         <div class="container">
@@ -231,7 +244,6 @@
         </div>
     </section>
 
-
     <!--Предложения-->
     <section class="sugest">
         <h2 class="services_title"><mark>Лучшие</mark> предложения</h2>
@@ -281,7 +293,6 @@
        
         <button class="sugest_btn intro_btn">смотреть весь каталог</button>
     </section>
-
 
     <!--Рейтинг-->
     <section class="rating">
@@ -516,11 +527,8 @@
             <p class="err_sub_title">Страница не найдена</p>
             <a class="intro_btn err_btn" href="#">Вернуться на главную</a>
         </div>
-    </section>    
-
-
+    </section>
     </main>
-
 
     <!--FOOTER-->
     <footer class="footer">
@@ -598,6 +606,6 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" defer></script>
     <script src="js/owl.js" defer></script>
     <script src="js/slider.js" defer></script>
-
+    <script src="js/burger.js" defer></script>
 </body>
 </html>
